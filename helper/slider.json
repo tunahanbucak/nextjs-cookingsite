@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "image": "/images/slider1.png",
+    "title": "Baharatlı, lezzetli tavuk kanatları",
+    "type": "tavuk",
+    "time": "45 dakika",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2024-01-02"
+    }
+  },
+  {
+    "id": 2,
+    "image": "/images/slider2.png",
+    "title": "Fransız Omleti",
+    "type": "kahvalti",
+    "time": "25 dakika",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2024-02-01"
+    }
+  }
+]

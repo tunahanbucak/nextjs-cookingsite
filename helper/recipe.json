@@ -1,0 +1,870 @@
+[
+  {
+    "id": 1,
+    "image": "/images/image1.png",
+    "title": "Büyük ve Sulu Wagyu Sığır Çizburger ",
+    "Top": 1,
+    "Category": "Atıştırmalık",
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 20,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 2,
+    "image": "/images/image2.png",
+    "title": "Zencefil Soslu Taze Limonlu Kavrulmuş Somon",
+    "Category": "Balık",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 45,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 3,
+    "image": "/images/image3.png",
+    "title": "Bal Şurubu ile Çilekli Yulaf Ezmeli Gözleme",
+    "Category": "Kahvaltı",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 15,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 4,
+    "image": "/images/image4.png",
+    "title": "Taze ve Sağlıklı Karışık Mayonezli Salata",
+    "Category": "Sağlıklı",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 10,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 5,
+    "image": "/images/image5.png",
+    "title": "Krem Peynirli  Köfte",
+    "Category": "Et",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+
+  {
+    "id": 6,
+    "image": "/images/image17.png",
+    "title": "Mantarlı Tavuk Ramen Çorbası ",
+    "Category": "erişte",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 7,
+    "image": "/images/image6.png",
+    "title": "Portakallı ve Yaban Mersinli Meyveli Gözleme",
+    "Category": "Tatlı",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 8,
+    "image": "/images/image7.png",
+    "title": "En Kolay Tek Tencere Tavuk ve Pilav",
+    "Category": "Atıştırmalık",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 9,
+    "image": "/images/image8.png",
+    "title": "En Kremalı Kremalı Tavuk ve Pastırmalı Makarna",
+    "Category": "erişte",
+    "Top": 1,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 10,
+    "image": "/images/image10.png",
+    "title": "Süper Gıda Katkılı Karışık Tropikal Meyve Salatası ",
+    "Category": "erişte",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 11,
+    "image": "/images/image11.png",
+    "title": "Büyük ve Sulu Wagyu Sığır Çizburger",
+    "Category": "Atıştırmalık",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 12,
+    "Category": "Sağlıklı",
+    "Top": 0,
+    "image": "/images/image12.png",
+    "title": "Kuşkonmazlı Sağlıklı Japon Kızarmış Pilav",
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 13,
+    "image": "/images/image13.png",
+    "title": "Karnabahar Cevizli Vejetaryen Taco Eti",
+    "Category": "Vejetaryen",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 14,
+    "image": "/images/image14.png",
+    "title": "Bademli Ballı Hardal Soslu Gökkuşağı Tavuk Salatası",
+    "Category": "erişte",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 15,
+    "image": "/images/image15.png",
+    "title": "Cipsli Barbekü Baharatlı Sandviçler ",
+    "Category": "Atıştırmalık",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 16,
+    "Category": "erişte",
+    "Top": 0,
+    "image": "/images/image16.png",
+    "title": "Havai fişek Vegan Marul Sarar - Baharatlı! ",
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 30,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  },
+  {
+    "id": 2,
+    "image": "/images/image2.png",
+    "title": "Zencefil Soslu Taze Limonlu Kavrulmuş Somon",
+    "Category": "Balık",
+    "Top": 0,
+    "video": "/videos/newDish.mp4",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti sed accusamus, est, optio eveniet, inventore nobis voluptas ex molestias ad! Atque sunt omnis magni at facilis itaque ab exercitationem!",
+    "TimeToReady": 45,
+    "prepTime": 15,
+    "cookTime": 15,
+    "ingredients": [
+      { "title": "domates", "amount": "200gr" },
+      { "title": "erişte", "amount": "300gr" },
+      { "title": "domates sos", "amount": "1 kaşık" },
+      { "title": "tuz", "amount": "5gr" },
+      { "title": "yeşil biber", "amount": "200gr" },
+      { "title": "soğan", "amount": "200gr" },
+      { "title": "patates", "amount": "200gr" }
+    ],
+    "directions": [
+      {
+        "title": "1. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": "/images/cooking.png"
+      },
+      {
+        "title": "2. Lorem ipsum dolor sit amet ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      },
+      {
+        "title": "3. Lorem ipsum dolor sit amet  ",
+        "direction": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "image": ""
+      }
+    ],
+
+    "nutritionInfo": [
+      { "title": "Kalori", "amount": "219.9kcal" },
+      { "title": "Toplam Yağ", "amount": "10.7g" },
+      { "title": "Protein", "amount": "7.9g" },
+      { "title": "Karbonhidrat", "amount": "22.3g" },
+      { "title": "Kolesterol", "amount": "37.4mg" }
+    ],
+    "author": {
+      "name": "John Smith",
+      "image": "/images/user.png",
+      "date": "2021-05-05"
+    }
+  }
+]

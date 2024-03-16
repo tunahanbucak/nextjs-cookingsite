@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -13,8 +14,25 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      borderRadius: {
+        "4xl": "30px",
+        "5xl": "40px",
+        "6xl": "50px",
+      },
+      dropShadow: {
+        red: "30px 10px 25px rgba(255, 0, 0, 0.25)",
+        green: "30px 10px 25px rgba(0, 255, 0, 0.25)",
+        yellow: "30px 10px 25px rgba(255, 255, 0, 0.25)",
+        stone: "30px 10px 25px rgba(0, 0, 0, 0.25)",
+        lime: "30px 10px 25px rgba(50, 205, 50, 0.25)",
+        blue: "30px 10px 25px rgba(0, 0,255, 0.25)",
+      },
+      colors: {
+        skyblue: "#E7FAFE",
+      },
     },
   },
+
   plugins: [],
 };
 export default config;

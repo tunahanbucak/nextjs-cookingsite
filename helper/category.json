@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Kahvaltı",
+    "image": "/images/Breakfast.svg"
+  },
+  {
+    "id": 2,
+    "title": "Vegan",
+    "image": "/images/Vegan.svg"
+  },
+  {
+    "id": 3,
+    "title": "Et",
+    "image": "/images/Meat.svg"
+  },
+  {
+    "id": 4,
+    "title": "Tatlı",
+    "image": "/images/Dessert.svg"
+  },
+  {
+    "id": 5,
+    "title": "İçecek",
+    "image": "/images/Drink.png"
+  },
+  {
+    "id": 6,
+    "title": "Öğle yemeği",
+    "image": "/images/Lunch.svg"
+  },
+  {
+    "id": 7,
+    "title": "Çikolata",
+    "image": "/images/Chocolate.svg"
+  },
+  {
+    "id": 8,
+    "title": "Atıştırmalık",
+    "image": "/images/Snack.png"
+  },
+  {
+    "id": 8,
+    "title": "Sağlıklı",
+    "image": "/images/Healthy.png"
+  }
+]
