@@ -19,7 +19,7 @@ const pages = [
   { title: "Anasayfa", href: "/" },
   { title: "Hakkımızda", href: "/about" },
   { title: "Tarifler", href: "/recipes" },
-  { title: "Blog", href: "/blog" },
+  { title: "Blog", href: "/blogs" },
   { title: "İletişim", href: "/contact" },
 ];
 

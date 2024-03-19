@@ -64,3 +64,61 @@ export interface RecommendationProps {
     Category: string;
   }[];
 }
+
+export interface OtherRecipesProps {
+  title: string;
+
+  recipes: {
+    id: number;
+    title: string;
+    image: string;
+    author: { name: string; image: string; date: string };
+  }[];
+}
+
+export interface OtherRecipeCardProps {
+  id: number;
+  title: string;
+  image: string;
+  author: { name: string; image: string; date: string };
+}
+
+export interface BlogListProps {
+  blogs: {
+    id: number;
+    title: string;
+    image: string;
+    description: string;
+    author: { name: string; image: string; date: string };
+  }[];
+  recipes: {
+    id: number;
+    title: string;
+    image: string;
+    author: { name: string; image: string; date: string };
+  }[];
+}
+
+export interface AppPaginationProps {
+  setItems: (blog: any) => void;
+}
+
+export interface PostCardProps {
+  id: number;
+  title: string;
+  image: string;
+  description: string;
+  author: { name: string; image: string; date: string };
+}
+
+export interface PostContentProps {
+  QsnAns: { question: string; answer: string; image: string; quote: string }[];
+}
+
+export interface PostHeaderProps {
+  id: string;
+  title: String;
+  author: { name: string; date: string; image: string };
+  image: string;
+  description: string;
+}
