@@ -3,11 +3,11 @@ import SubscribeCard from "@/components/SubscribeCard";
 import React from "react";
 import BlogList from "@/components/BlogList";
 import recipes from "../../helper/recipe.json";
-import BlogPosts from "../../helper/blogPosts.json";
+import BlogsPosts from "../../helper/blogsPosts.json";
 
 export default function BlogsList() {
   const blogs: any = [];
-  BlogPosts.forEach((blog) => {
+  BlogsPosts.forEach((blog) => {
     const { id, title, description, image, author } = blog;
     blogs.push({ id, title, description, image, author });
   });

@@ -7,8 +7,10 @@ export default function BlogForm() {
   return (
     <Grid container rowGap={5} className=" my-16 px-10 md:px-20 mx-auto">
       <Grid container rowGap={3}>
-        <h1 className="w-full text-center">Blog & Makale</h1>
-        <p className="w-full text-center">
+        <h1 className=" font-semibold text-[64px] text-black tracking-tight w-full text-center">
+          Blog & Makale
+        </h1>
+        <p className=" text-stone-600 font-normal text-base text-wrap  w-full text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
           ipsa veritatis illum? Dolorem, optio esse.
         </p>
@@ -25,7 +27,7 @@ export default function BlogForm() {
             className="rounded-3xl border-2 border-stone-100 w-full h-full placeholder:text-stone-500 placeholder:text-sm px-5"
             placeholder="Makale, haber veya tarif arayın..."
           />
-          <button className="btn absolute top-2 right-2 w-4/12 sm:w-[160px]">
+          <button className=" rounded-2xl  h-[60px] text-white font-medium text-sm flex justify-center items-center gap-5  bg-black absolute top-2 right-2 w-4/12 sm:w-[160px]">
             Arama
           </button>
         </form>

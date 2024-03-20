@@ -11,7 +11,7 @@ export default function CarouselItem({ item }: CarouselItemProps) {
       elevation={0}
       style={{ backgroundImage: `url(${item.image})` }}
       className="relative w-10/12 lg:h-[640px] h-60 bg-no-repeat bg-contain bg-right bg-skyblue m-auto text-white rounded-[50px] p-4 lg:p-14 flex items-center ">
-      <div className="flex  h-full w-2/5 md:w-1/2 flex-col justify-between items-start gap-10 text-black">
+      <div className="flex h-full w-2/5 md:w-1/2 flex-col justify-between items-start gap-10 text-black">
         <button className="bg-white rounded-4xl w-[156px] h-11 text-black font-semibold text-sm hidden  lg:flex justify-evenly items-center ">
           <Image
             src="/images/letter.png"
@@ -22,7 +22,7 @@ export default function CarouselItem({ item }: CarouselItemProps) {
           <span>Sıcak Yemek Tarifleri</span>
         </button>
         <div className="flex flex-col justify-center items-start gap-10">
-          <h1 className=" font-semibold text-[64px] text-black tracking-tight text-3xl lg:text-5xl xl:text-[64px]  ">
+          <h1 className="text-3xl lg:text-5xl xl:text-[64px] font-semibold  ">
             <Link href="/recipes">{item.title}</Link>
           </h1>
           <p className="text-stone-600 font-normal text-base text-wrap text-left hidden lg:block ">
@@ -55,7 +55,9 @@ export default function CarouselItem({ item }: CarouselItemProps) {
             image={item.author.image}
             date={item.author.date}
           />
-          <Link href="/recipes" className="btn">
+          <Link
+            href="/recipes"
+            className="rounded-2xl w-[200px] h-[60px] text-white font-medium text-sm flex justify-center items-center gap-5  bg-black">
             Tarifleri Görüntüle
             <Image
               src="/images/PlayCircle.svg"

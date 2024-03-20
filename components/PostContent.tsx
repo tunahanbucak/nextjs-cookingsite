@@ -24,7 +24,7 @@ export default function PostContent(props: PostContentProps) {
                 )}
                 <p>{answer}</p>
                 {quote && (
-                  <h3 className="w-full tracking-tight text-[36px] font-medium italic flex items-center justify-center p-10 leading-[60px] border-y-2 border-y-zinc-200 bg-gradient-to-r from-zinc-100 to-transparent">
+                  <h3 className=" text-3xl text-black w-full tracking-tight text-[36px] font-medium italic flex items-center justify-center p-10 leading-[60px] border-y-2 border-y-zinc-200 bg-gradient-to-r from-zinc-100 to-transparent">
                     {quote}
                   </h3>
                 )}

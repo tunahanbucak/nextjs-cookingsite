@@ -23,7 +23,7 @@ export default function OtherRecipeCard(props: OtherRecipeCardProps) {
             href={`/recipes/${props.id}`}>
             {props.title.slice(0, 30)}
           </Link>
-          <p className="text-left text-sm font-medium py-3 ">
+          <p className="text-left text-sm font-medium py-3 text-stone-600 text-wrap  ">
             By {props.author.name}
           </p>
         </CardContent>

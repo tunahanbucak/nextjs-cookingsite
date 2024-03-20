@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Ads from "./Ads";
@@ -9,6 +10,7 @@ import PostCard from "./PostCard";
 
 export default function BlogList(props: BlogListProps) {
   const [blogs, setBlogs] = useState([]);
+
   return (
     <Grid container rowGap={8} className=" my-16 px-10 md:px-20 mx-auto">
       <Grid item xs={12} lg={8}>

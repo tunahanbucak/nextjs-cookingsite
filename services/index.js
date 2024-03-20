@@ -1,4 +1,4 @@
-import BlogPosts from "../helper/blogPosts.json";
+import BlogPosts from "../helper/blogsPosts.json";
 
 const service = {
   getData: ({ from, to }) => {

@@ -32,7 +32,7 @@ export default function RecipeCard(props: RecipeCardProps) {
       </IconButton>
       <CardContent>
         <Link href={`/recipes/${props.id}`}>
-          <h4>{props.title}</h4>
+          <h4 className="font-semibold text-2xl text-black">{props.title}</h4>
         </Link>
       </CardContent>
       <CardActions sx={{ gap: 4 }}>
@@ -40,7 +40,7 @@ export default function RecipeCard(props: RecipeCardProps) {
           <Image src="/images/Timer.svg" width={24} height={24} alt="Timer" />
           <span>{props.TimeToReady} dakika</span>
         </button>
-        <button className="flex  text-stone-600 font-medium text-sm  justify-evenly items-center bg-transparent gap-2">
+        <button className="flex text-stone-600 font-medium text-sm  justify-evenly items-center bg-transparent gap-2">
           <Image
             src="/images/ForkKnife.svg"
             width={24}

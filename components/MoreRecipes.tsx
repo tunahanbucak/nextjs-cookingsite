@@ -16,12 +16,6 @@ export default function MoreRecipes() {
           Gününüzü güzelleştirmek için bu lezzetli tarifi deneyin
         </h2>
       </Grid>
-      {/* <Grid item xs={12} lg={6}>
-        <Typography paragraph className="w-11/12">
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqut enim ad minim
-        </Typography>
-      </Grid> */}
       <Grid
         container
         sx={{ rowGap: 4, justifyContent: "center", width: "100%" }}>

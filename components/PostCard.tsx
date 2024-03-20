@@ -1,6 +1,4 @@
-import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
-import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "next/link";
 import Image from "next/image";

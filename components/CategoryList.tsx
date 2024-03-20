@@ -24,6 +24,7 @@ const Items = category.map(({ id, title, image }) => (
     onDragStart={handleDragStart}
   />
 ));
+
 export default function CategoryList() {
   const [hasWindow, setHasWindow] = useState(false);
   useEffect(() => {
@@ -35,8 +36,10 @@ export default function CategoryList() {
   return (
     <div className="flex flex-col justify-center items-center my-16 px-10 md:px-20 mx-auto ">
       <div className="flex flex-col md:flex-row items-center justify-between w-full space-y-10">
-        <h1 className="font-semibold text-2xl lg:text-5xl ">Kategoriler</h1>
-        <button className=" hover:bg-blue-300 text-black font-semibold text-base rounded-2xl w-[200px] h-[60px] ">
+        <h1 className="font-semibold text-black tracking-tight text-2xl lg:text-5xl ">
+          Kategoriler
+        </h1>
+        <button className=" bg-skyblue hover:bg-blue-300 text-black font-semibold text-base rounded-2xl w-[200px] h-[60px] ">
           Tüm Kategorileri Görüntüle
         </button>
       </div>

@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, ChangeEvent } from "react";
 import Pagination from "@mui/material/Pagination";
 import PaginationItem from "@mui/material/PaginationItem";
@@ -22,12 +23,14 @@ export default function AppPagination(props: AppPaginationProps) {
         props.setItems(response.data);
       });
   }, [pagination.from, pagination.to]);
+
   const handlePageChange = (event: ChangeEvent<unknown>, page: number) => {
     const from = (page - 1) * pageSize;
     const to = (page - 1) * pageSize + pageSize;
     setPagination({ ...pagination, from, to });
     window.scroll(0, 0);
   };
+
   return (
     <Pagination
       count={Math.ceil(pagination.count / pageSize)}

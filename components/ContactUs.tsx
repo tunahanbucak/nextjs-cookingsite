@@ -39,14 +39,16 @@ export default function ContactUs() {
                 xs={12}
                 lg={6}
                 className="flex flex-col gap-4 flex-nowrap">
-                <label htmlFor="name" className="contact-label">
+                <label
+                  htmlFor="name"
+                  className="text-xs font-medium text-stone-500">
                   İSİM
                 </label>
                 <input
                   type="text"
                   name="name"
                   placeholder="Adınızı giriniz..."
-                  className="contact-input"
+                  className=" bg-white w-full p-4 rounded-2xl border border-stone-300 placeholder:text-sm text-stone-400"
                 />
               </Grid>
               <Grid
@@ -54,7 +56,9 @@ export default function ContactUs() {
                 xs={12}
                 lg={6}
                 className="flex flex-col gap-4 flex-nowrap">
-                <label htmlFor="email" className="contact-label">
+                <label
+                  htmlFor="email"
+                  className="text-xs font-medium text-stone-500">
                   E-POSTA ADRESİ
                 </label>
                 <input
@@ -62,7 +66,7 @@ export default function ContactUs() {
                   name="email"
                   placeholder="
                   E-posta adresiniz..."
-                  className="contact-input"
+                  className="bg-white w-full p-4 rounded-2xl border border-stone-300 placeholder:text-sm text-stone-400"
                 />
               </Grid>
             </Grid>
@@ -74,14 +78,16 @@ export default function ContactUs() {
                 xs={12}
                 lg={6}
                 className="flex flex-col gap-4 flex-nowrap">
-                <label htmlFor="subject" className="contact-label">
+                <label
+                  htmlFor="subject"
+                  className="text-xs font-medium text-stone-500">
                   KONU
                 </label>
                 <input
                   type="text"
                   name="subject"
                   placeholder="Konuyu girin..."
-                  className="contact-input"
+                  className="bg-white w-full p-4 rounded-2xl border border-stone-300 placeholder:text-sm text-stone-400"
                 />
               </Grid>
               <Grid
@@ -89,10 +95,14 @@ export default function ContactUs() {
                 xs={12}
                 lg={6}
                 className="flex flex-col gap-4 flex-nowrap">
-                <label htmlFor="enquiry" className="contact-label">
+                <label
+                  htmlFor="enquiry"
+                  className="text-xs font-medium text-stone-500">
                   SORU TÜRÜ
                 </label>
-                <select name="enquiry" className="contact-input">
+                <select
+                  name="enquiry"
+                  className="bg-white w-full p-4 rounded-2xl border border-stone-300 placeholder:text-sm text-stone-400">
                   <option value="advertising">Reklamcılık</option>
                   <option value="reproof">Kınama</option>
                   <option value="recommendation">Tavsiye</option>
@@ -102,17 +112,21 @@ export default function ContactUs() {
             </Grid>
             <Grid container>
               <Grid item xs={12} className="flex flex-col gap-4 flex-nowrap">
-                <label htmlFor="message" className="contact-label">
+                <label
+                  htmlFor="message"
+                  className="text-xs font-medium text-stone-500">
                   MESAJLAR
                 </label>
                 <textarea
                   name="message"
                   placeholder="Mesajlarınızı girin..."
                   rows={5}
-                  className="contact-input"></textarea>
+                  className="bg-white w-full p-4 rounded-2xl border border-stone-300 placeholder:text-sm text-stone-400"></textarea>
               </Grid>
             </Grid>
-            <button type="submit" className="btn w-44 my-10">
+            <button
+              type="submit"
+              className="rounded-2xl w-[200px] h-[60px] text-white font-medium text-sm flex justify-center items-center gap-5  bg-black  my-10">
               Gönder
             </button>
           </form>

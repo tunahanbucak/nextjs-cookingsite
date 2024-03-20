@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import MoreRecipeCard from "./MoreRecipeCard";
 import { RecommendationProps } from "@/types";
+import { MoreRecipeCard } from ".";
 
 export default function RecommendationRecipe(props: RecommendationProps) {
   return (

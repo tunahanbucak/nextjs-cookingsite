@@ -4,7 +4,6 @@ import LearnMore from "@/components/LearnMore";
 import MoreRecipes from "@/components/MoreRecipes";
 import RecipesList from "@/components/RecipesList";
 import SubscribeCard from "@/components/SubscribeCard";
-import Image from "next/image";
 
 export default function Home() {
   return (

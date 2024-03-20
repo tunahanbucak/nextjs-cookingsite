@@ -13,8 +13,10 @@ export default function MiniProfile(props: MiniProfileProps) {
         className="rounded-full"
       />
       <div className="flex flex-col justify-center items-center ">
-        <h3 className="font-bold text-base">{props.name}</h3>
-        <p className="text-stone-600 font-medium text-sm">{props.date}</p>
+        <h3 className="text-3xl text-black font-bold">{props.name}</h3>
+        <p className="text-stone-600 text-left text-wrap font-medium text-sm">
+          {props.date}
+        </p>
       </div>
     </div>
   );
