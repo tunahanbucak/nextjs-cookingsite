@@ -1,5 +1,5 @@
 import Recipes from "../../../helper/recipe.json";
-import Blogs from "../../../helper/blogPosts.json";
+import Blogs from "../../../helper/blogsPosts.json";
 import PostHeader from "@/components/PostHeader";
 import PostContent from "@/components/PostContent";
 import SubscribeCard from "@/components/SubscribeCard";
