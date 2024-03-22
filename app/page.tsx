@@ -12,7 +12,7 @@ export default function Home() {
       <CategoryList />
       <RecipesList />
       <LearnMore />
-      <MoreRecipes />
+      {/* <MoreRecipes /> */}
       <SubscribeCard />
     </>
   );

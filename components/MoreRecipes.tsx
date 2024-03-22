@@ -13,7 +13,7 @@ export default function MoreRecipes() {
       className="my-16 px-10 md:px-20 mx-auto">
       <Grid item xs={12} lg={6}>
         <h2 className="font-semibold text-5xl text-black tracking-tight pb-10 mb-5 items-center flex justify-center">
-          Gününüzü güzelleştirmek için bu lezzetli tarifi deneyin
+          Gününüzü güzelleştirmek için bu lezzetli tarifleri deneyin
         </h2>
       </Grid>
       <Grid
