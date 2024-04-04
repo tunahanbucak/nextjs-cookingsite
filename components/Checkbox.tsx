@@ -6,6 +6,7 @@ import Image from "next/image";
 
 export default function Checkbox({ label, ingredient = false }: CheckboxProps) {
   const [checked, setChecked] = useState(false);
+
   return (
     <>
       <div
@@ -17,7 +18,6 @@ export default function Checkbox({ label, ingredient = false }: CheckboxProps) {
           <Image src="/images/tick.svg" width={10} height={6} alt="checkbox" />
         )}
       </div>
-
       <span
         className={`${checked && "line-through text-stone-200"} ${
           ingredient ? "text-lg" : "text-2xl font-semibold"

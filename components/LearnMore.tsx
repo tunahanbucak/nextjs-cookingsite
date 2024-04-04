@@ -1,11 +1,7 @@
-import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
-import { FC } from "react";
 
-interface ILearnMoreProps {}
-
-export default function LearnMore(props: ILearnMoreProps) {
+export default function LearnMore() {
   return (
     <Grid container rowGap={12} className="m-auto mb-20 mt-48 px-10 md:px-20 ">
       <Grid item xs={12} md={6}>

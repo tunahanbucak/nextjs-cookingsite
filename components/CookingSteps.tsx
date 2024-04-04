@@ -23,7 +23,7 @@ export default function CookingSteps(props: CookingStepsProps) {
           rowGap={10}
           sx={{ justifyContent: { xs: "center", lg: "left" } }}>
           <Grid item>
-            <OtherRecipes recipes={props.recipes} title="Other Recipes" />
+            <OtherRecipes recipes={props.recipes} title="Diğer Tarifler" />
           </Grid>
           <Grid item>
             <Ads />

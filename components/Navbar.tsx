@@ -9,7 +9,7 @@ import {
   MenuList,
   Toolbar,
 } from "@mui/material";
-import { FC, useState, MouseEvent } from "react";
+import { useState, MouseEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import CustomButton from "./CustomButton";
@@ -39,19 +39,14 @@ export default function Navbar() {
         <Box
           sx={{ display: { xs: "none", md: "flex" } }}
           className="w-full justify-between items-center">
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="logo"
-            sx={{ display: { xs: "none", md: "flex" } }}>
+          <Link href="/">
             <Image
               src="/images/Foodieland.png"
               width={110}
               height={30}
               alt="Foodieland"
             />
-          </IconButton>
+          </Link>
           <Box
             sx={{ display: { xs: "none", md: "flex" } }}
             className="w-3/6 justify-around">

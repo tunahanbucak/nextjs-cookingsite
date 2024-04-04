@@ -4,7 +4,6 @@ export { default as CarouselItem } from "./CarouselItem";
 export { default as CategoryItem } from "./CategoryItem";
 export { default as CategoryList } from "./CategoryList";
 export { default as Footer } from "./Footer";
-//export { default as InstagramPosts } from "./InstagramPosts";
 export { default as LearnMore } from "./LearnMore";
 export { default as MiniProfile } from "./MiniProfile";
 export { default as MoreRecipeCard } from "./MoreRecipeCard";

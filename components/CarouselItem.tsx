@@ -1,5 +1,5 @@
 import { CarouselItemProps } from "@/types";
-import React, { FC } from "react";
+import React from "react";
 import Image from "next/image";
 import Paper from "@mui/material/Paper";
 import MiniProfile from "./MiniProfile";

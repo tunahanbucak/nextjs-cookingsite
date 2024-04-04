@@ -14,10 +14,7 @@ import { MoreRecipeCardProps } from "@/types";
 export default function MoreRecipeCard(props: MoreRecipeCardProps) {
   const [like, setLike] = useState(false);
   return (
-    <Card
-      // sx={{ maxWidth: 400 }}
-      elevation={0}
-      className=" w-72 h-80 relative">
+    <Card elevation={0} className=" w-72 h-80 relative">
       <CardMedia
         sx={{ height: 140 }}
         image={props.image}

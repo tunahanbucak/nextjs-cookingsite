@@ -3,9 +3,7 @@ import Recipes from "../helper/recipe.json";
 import RecipeCard from "./RecipeCard";
 import Ads from "./Ads";
 
-interface RecipesListProps {}
-
-export default function RecipesList(props: RecipesListProps) {
+export default function RecipesList() {
   const newRecipes = Recipes.filter((recipe) => recipe.Top == 1);
 
   return (

@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default function ContactUs() {
   const handleSubmit = () => {};
+
   return (
     <Grid
       container

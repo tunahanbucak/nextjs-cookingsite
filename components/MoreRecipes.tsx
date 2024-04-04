@@ -1,6 +1,5 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import Recipes from "../helper/recipe.json";
 import MoreRecipeCard from "./MoreRecipeCard";
 

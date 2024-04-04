@@ -49,9 +49,9 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
                     alt="timer"
                   />
                   <div className="flex flex-col justify-between items-start gap-2">
-                    <span className="header">PREP TIME</span>
+                    <span className="header">HAZIRLIK SÜRESİ</span>
                     <p className="text-sm font-medium">
-                      {props.prepTime} Minutes
+                      {props.prepTime} dakika
                     </p>
                   </div>
                 </div>
@@ -65,9 +65,9 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
                     alt="timer"
                   />
                   <div className="flex flex-col justify-between items-start gap-2">
-                    <span className="header">COOK TIME</span>
+                    <span className="header">PİŞİRME SÜRESİ</span>
                     <p className="text-sm font-medium">
-                      {props.cookTime} Minutes
+                      {props.cookTime} dakika
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
                     height={24}
                   />
                 </button>
-                <span className="header">PRINT</span>
+                <span className="header">YAZDIR</span>
               </div>
             </Grid>
             <Grid item>
@@ -116,7 +116,7 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
                     height={24}
                   />
                 </button>
-                <span className="header">SHARE</span>
+                <span className="header">PAYLAŞ</span>
               </div>
             </Grid>
           </Grid>
@@ -141,7 +141,7 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
         <Grid item xs={12} lg={4}>
           <div className=" h-full flex flex-col justify-between p-8 rounded-4xl bg-skyblue">
             <div className="flex flex-col justify-evenly">
-              <h4 className="mb-2">Nutrition Information</h4>
+              <h4 className="mb-2">Besin Bilgileri</h4>
               {props.nutritionInfo.map(({ title, amount }, index) => (
                 <div
                   className="flex justify-between  border-stone-200 border-b-2 py-3"
@@ -151,10 +151,6 @@ export default function HeaderRecipe(props: HeaderRecipeProps) {
                 </div>
               ))}
             </div>
-            <p>
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.{" "}
-            </p>
           </div>
         </Grid>
       </Grid>
