@@ -1,13 +1,13 @@
-import React from "react";
-import Image from "next/image";
-import Grid from "@mui/material/Grid";
+import React from 'react';
+import Image from 'next/image';
+import Grid from '@mui/material/Grid';
 
 export default function SubscribeCard() {
   return (
     <Grid
       container
       className="my-16 px-10 md:px-20 mx-auto"
-      justifyContent={"center"}>
+      justifyContent={'center'}>
       <div className="w-full relative overflow-hidden bg-skyblue rounded-6xl flex-col flex items-center justify-center gap-8 px-4 py-20 ">
         <h2 className=" font-semibold text-5xl text-black tracking-tight text-center w-full ">
           Gelen kutunuza gelen lezzetler

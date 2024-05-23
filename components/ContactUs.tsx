@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { Grid } from "@mui/material";
-import Image from "next/image";
+import { Grid } from '@mui/material';
+import Image from 'next/image';
 
 export default function ContactUs() {
   const handleSubmit = () => {};
@@ -10,7 +10,7 @@ export default function ContactUs() {
     <Grid
       container
       className=" my-16 px-10 md:px-20 mx-auto"
-      justifyContent={"center"}>
+      justifyContent={'center'}>
       <h1 className="text-center w-full font-semibold text-[64px] text-black tracking-tight">
         Bize Ulaşın
       </h1>
@@ -18,13 +18,13 @@ export default function ContactUs() {
         item
         xs={12}
         lg={4}
-        className="bg-gradient-to-t h-[432px] from-skyblue rounded-4xl relative my-16">
+        className="h-[432px] from-skyblue rounded-4xl relative my-16">
         <Image
-          src="/images/Chef.png"
+          src="/images/Chef.jpg"
           alt="contact-us"
           width={350}
           height={470}
-          className="absolute bottom-0 left-8"
+          className="absolute bottom-0 left-8 "
         />
       </Grid>
       <Grid item xs={12} lg={8}>
